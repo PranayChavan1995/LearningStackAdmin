@@ -42,10 +42,17 @@ App.config([
 			})
 			
 			$stateProvider.state('home', {
-				url : "/",
 				params : {},
 				templateUrl : function($stateParams) {
 					return 'index/home';
+				},
+				controller : "CommonController as cCctr",
+			})
+			$stateProvider.state('home.homepage', {
+				url : "/",
+				params : {},
+				templateUrl : function($stateParams) {
+					return 'index/homepage';
 				},
 				controller : "CommonController as cCctr",
 			})

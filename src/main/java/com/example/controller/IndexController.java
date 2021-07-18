@@ -12,4 +12,9 @@ public class IndexController {
 	public String getIndexHome(ModelMap model) {
 		return "home";
 	}
+	
+	@RequestMapping(value = "/homepage")
+	public String m1(ModelMap model) {
+		return "homepage";
+	}
 }

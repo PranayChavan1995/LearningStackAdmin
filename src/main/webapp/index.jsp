@@ -6,7 +6,7 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1" />
 <meta name="author" content="LearningStack" />
-<title>LearningStackAdmin</title>
+<title>LearningStackAdmin[index.jsp]</title>
 <meta name="description"
 	content="Learning Stack" />
 <meta name="keywords"
