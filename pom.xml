@@ -6,7 +6,7 @@
 	<artifactId>LearningStackAdmin</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>LearningStack</name>
+	<name>LearningStackAdmin</name>
 	<description>Joint project with Akbarabbas</description>
 	<properties>
 		<springframework.version>5.1.1.RELEASE</springframework.version>
@@ -204,7 +204,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>LearningStack</finalName>
+		<finalName>LearningStackAdmin</finalName>
 		<plugins>
 			<plugin>
 				<groupId>net.alchim31.maven</groupId>
@@ -229,8 +229,12 @@
 							<target>1.8</target>
 						</configuration>
 					</execution>
-
 				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.3.1</version>
 			</plugin>
 		</plugins>
 	</build>

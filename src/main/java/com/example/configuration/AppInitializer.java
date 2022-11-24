@@ -16,6 +16,7 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
 
 	@Override
 	protected String[] getServletMappings() {
+		System.out.println("##########################AppInitializer.getServletMappings()##################################");
 		return new String[] { "/" };
 	}
 
